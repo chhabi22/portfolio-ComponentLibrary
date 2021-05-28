@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 /*Container*/
@@ -87,7 +88,8 @@ text-align: center;
 .hero-heading{
 font-size: x-large;
 padding-top: 1rem;
-color: var(--dark-magenta)
+color: var(--dark-magenta);
+text-align: center;
 }
 
 /**SECTIONS **/
@@ -101,4 +103,22 @@ text-align: center;
 
 .ow{
     background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
