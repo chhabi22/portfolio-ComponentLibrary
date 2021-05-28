@@ -2,6 +2,9 @@
 
 :root{
     --primary-color:#60b0ba;
+    --dark-grey: #eeeef5;
+    --dark-magenta: #8c5b97;
+    --off-white: #F9FAFB;
 }
 
 body{
@@ -66,4 +69,36 @@ list-style: none;
 }
 .navigation .link-active{
     font-weight: bold;
+}
+
+/**header**/
+
+.hero{
+padding: 2rem;
+text-align: center;
+}
+
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+font-size: x-large;
+padding-top: 1rem;
+color: var(--dark-magenta)
+}
+
+/**SECTIONS **/
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
 }
